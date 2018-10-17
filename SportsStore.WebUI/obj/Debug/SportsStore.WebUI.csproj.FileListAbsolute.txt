@@ -47,6 +47,8 @@ C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\Moq.dll
@@ -62,6 +64,9 @@ C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\System.Web.Webp
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\Moq.xml
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\Ninject.xml
@@ -81,8 +86,3 @@ C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\obj\Debug\SportsSto
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
-C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
-C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
-C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
-C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
-C:\Users\mabotero\source\repos\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml

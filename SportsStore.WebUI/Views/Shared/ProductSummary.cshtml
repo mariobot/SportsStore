@@ -1,25 +1,32 @@
 ﻿@model SportsStore.Domain.Entities.Product
 
-<div class="well">    
-        
-        <div class="row">
-            <div class="col-lg-9">
-                <h3><strong>@Model.Name</strong></h3>
-                <span class="lead"> @Model.Description</span>
-            </div>
-            <div class="col-lg-3">
-                @using (Html.BeginForm("AddToCart", "Cart"))
-                {
-                    <div class="pull-right">
-                        <span class="label label-primary">@Model.Price.ToString("c")</span>
-                        <br />
-                        <br />
-                        @Html.HiddenFor(x => x.ProductID)
-                        @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
-                        <input type="submit" class="btn btn-success" value="Add to cart" />
-                    </div>
-                }
-            </div>
+<div class="well">
+    <div class="row">
+        <div class="col-lg-2">
+            @if (Model.ImageData != null)
+            {
+                <div class="pull-left" style="margin-right: 10px">
+                    <img class="img-responsive img-thumbnail" src="@Url.Action("GetImage", "Product", new { Model.ProductID })" />
+                </div>
+            }
         </div>
+        <div class="col-lg-7">            
+            <h3><strong>@Model.Name</strong></h3>
+            <span class="lead"> @Model.Description</span>
+        </div>
+        <div class="col-lg-3">
+            @using (Html.BeginForm("AddToCart", "Cart"))
+            {
+                <div class="pull-right">
+                    <span class="label label-primary">@Model.Price.ToString("c")</span>
+                    <br />
+                    <br />
+                    @Html.HiddenFor(x => x.ProductID)
+                    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                    <input type="submit" class="btn btn-success" value="Add to cart" />
+                </div>
+            }
+        </div>
+    </div>
 </div>
 
